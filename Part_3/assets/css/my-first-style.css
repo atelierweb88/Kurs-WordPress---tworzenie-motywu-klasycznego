@@ -1,0 +1,28 @@
+/* My First Blog Style Css */
+.header-main a {
+    width: 200px;
+}
+
+.header-main a img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    padding: 5px 10px;
+}
+
+.menu li {
+    list-style-type: none;
+}
+
+.menu li a {
+    border-bottom: none;
+}
+
+ul.pagination {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul.pagination li div {
+    background-color: #fff;
+}
